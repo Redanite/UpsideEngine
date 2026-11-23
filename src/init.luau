@@ -23,4 +23,4 @@ end
 task.delay(0.1, destroy)
 
 export type ShadingParams = types.ShadingParams
-return (upsideEngine :: any) :: types.upsideEngine
+return {default = upsideEngine}
